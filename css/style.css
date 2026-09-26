@@ -206,3 +206,31 @@ ul {
   outline: 2px solid #2563eb;
   border-color: transparent;
 }
+
+
+
+.section-heading {
+    max-width: 700px;
+    margin-bottom: 2.5rem;
+}
+
+.section-heading h2 {
+    margin-top: 0.75rem;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.cta-section {
+    padding: 5rem 0;
+    text-align: center;
+    background: #eff6ff;
+}
+
+.cta-section h2 {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.cta-section p {
+    margin-bottom: 2rem;
+    color: #64748b;
+}
