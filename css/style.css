@@ -131,3 +131,78 @@ ul {
   border-top: 1px solid #e5e7eb;
   color: #64748b;
 }
+
+/* Page Header */
+
+.page-header {
+  padding: 5rem 0;
+  background: #f8fafc;
+}
+
+.page-header h1 {
+  max-width: 750px;
+  margin: 1rem 0;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+}
+
+.page-header p {
+  max-width: 650px;
+  color: #64748b;
+}
+
+/* Cards */
+
+.features {
+  padding: 5rem 0;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.card {
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: white;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card p {
+  color: #64748b;
+}
+
+/* Contact */
+
+.contact-section {
+  padding: 5rem 0;
+}
+
+.contact-form {
+  max-width: 650px;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  font: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 2px solid #2563eb;
+  border-color: transparent;
+}
